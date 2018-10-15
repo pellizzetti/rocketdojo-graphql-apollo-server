@@ -6,9 +6,7 @@ const typeDefs = gql`
     id: Int
     title: String
     author: String
-    description: String
     topic: String
-    url: String
   }
   type Query {
     allCourses: [Course]
